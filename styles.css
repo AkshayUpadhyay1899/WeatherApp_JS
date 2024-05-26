@@ -1,0 +1,141 @@
+*{
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .loc_search{
+      display: block;
+      height: 15vh;
+      top: 0px;
+      background-color: rgb(3, 53, 3);
+  }
+  
+  #location{
+      margin-top: 2%;
+      background-color: transparent;
+      border-top-color: transparent;
+      border-left-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: 5px white;
+      width: 55%;
+      margin-left: 18%;
+      color: white;
+      font-size: 19px;
+      height: 50px;
+      text-align: center;
+  }
+  
+  #Search{
+      margin-top: 2%;
+      width: 9.5%;
+      height: 60px;
+      font-size: 19px;
+  }
+  
+  .weather{
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center; 
+      background-color: rebeccapurple;
+      height: 82.9vh;
+  }
+  
+  #location_name{
+      margin-top: 4%;
+      font-size: 50px;
+      color: white;
+  }
+  
+  #time_n_date{
+      background-color: transparent;
+      margin-top: -2.7%;
+      margin-left: 1.8%;
+      color: darkgrey;
+      border: none;
+      font-size: 15px;;
+  }
+  
+  #img{
+      margin-top: 3.2%;
+      margin-right: -15%;
+      width: 100px;
+      height: 100px;
+  }
+  
+  #temp{
+      color: white;
+      margin-top: -5.5%;
+      margin-left: -6%;
+      font-size: 50px;
+  
+  }
+  
+  #sup{
+      color: white;
+      margin-top: -6.5%;
+      margin-right: -2%;
+      font-size: x-large;
+  }
+  
+  #tempspan{
+      color: white;
+      margin-top: -2.3%;
+      margin-right: -5.5%;
+      font-size: 50px;
+  }
+  
+  #condition{
+      color: white;
+      margin-top: 0%;
+      font-size: 25px;
+  }
+  
+  
+  #wind{
+      border-radius: 20px 20px 20px 20px;
+      border: 1px outset;
+      width: 17%;
+      height: 50px;    
+  }
+  
+  #wind_img, #humid_img{
+      margin-left: 5%;
+      margin-top: 2%;
+      width: 50px;
+      height: 40px;
+  }
+  
+  #wind_speed{
+      color: white;
+      font-size: 35px;
+      margin-left: 5%;
+  }
+  
+  #wind_speedspan{
+      color: white;
+  }
+  
+  #wind_dir{
+      color: white;
+  }
+  
+  #humid{
+      border-radius: 20px 20px 20px 20px;
+      border: 1px outset;
+      width: 17%;
+      height: 50px;
+  }
+  
+  #humidity{
+      color: white;
+      font-size: 35px;
+      margin-left: 5%;
+  }
+  
+  #humidityspan{
+      color: white;
+  }
